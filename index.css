@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(249, 239, 225);
+}
+.recipe{
+    border: 1px solid rgb(249, 239, 225);
+    border-radius: 12px;
+    padding:10px 0px 10px 20px;
+    margin: 100px 200px;
+    background-color: hsl(0, 0%, 100%);
+}
+.time{
+    border: 1px solid   hsl(330, 100%,98%);;
+    border-radius: 10px;
+    margin: 10px 15px;
+    line-height: 1.8;
+    background-color: hsl(330, 100%,98%);
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(332, 51%, 32%);
+    text-align: left;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 0.5px solid #ddd;
+}
+td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+}
+img{
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+ol,ul,li{
+    line-height: 2.0;
+}
+ol li::marker{
+    color:hsl(14, 45%, 36%) ;
+}
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.randomline{
+    background-color: #ddd;
+    margin: 10px 0;
+    height: 0.5px;
+    width: 95%;
+}
